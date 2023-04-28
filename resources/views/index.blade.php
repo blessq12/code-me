@@ -16,7 +16,7 @@
     </div>
   </div>
   
-  <section class="ftco-domain">
+  {{-- <section class="ftco-domain">
       <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
               <div class="col-lg-10 p-5 ftco-wrap ftco-animate">
@@ -48,7 +48,7 @@
               </div>
           </div>
       </div>
-  </section>
+  </section> --}}
 
   <section class="ftco-section ftco-partner">
       <div class="container">
