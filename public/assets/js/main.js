@@ -1,15 +1,31 @@
 document.addEventListener("DOMContentLoaded",function(){
-	let scroll = document.body.scrollTop
-	console.log(scroll)
+
+	let navbar = document.querySelector('.navbar')
+	let toggler = document.querySelector('.toggler')
+	let mobileMenu = document.querySelector('#nav')
+	let menuToggler = document.querySelector('.mobile-toggler')
+
 	// loader
 	let loader = document.querySelector("#ftco-loader")
 	loader.classList.remove('show')
-	// navbar
-	let nav = document.querySelector('#nav')
-	let menuToggler = document.querySelector('.mobile-toggler')
 
+	//scroll group events
+	window.addEventListener('scroll',function(e){
+		let scroll = window.pageYOffset
+		if (scroll >= 50){
+			navbar.classList.add('awake')
+			navbar.classList.add('scrolled')
+			menuToggler.classList.add('toggler-awake')
+		} else {
+			navbar.classList.remove('awake')
+			navbar.classList.remove('scrolled')
+			menuToggler.classList.remove('toggler-awake')
+		}
+	})
+
+	// navbar
 	menuToggler.addEventListener("click",function(){
-		nav.classList.toggle('collapse')
+		mobileMenu.classList.toggle('collapse')
 	})
 })
 

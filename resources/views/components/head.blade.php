@@ -27,3 +27,4 @@
   <div id="ftco-loader" class="show fullscreen loader">
       <object data="{{ asset('/assets/images/logo.svg') }}" width="155" height=""> </object>
   </div>
+

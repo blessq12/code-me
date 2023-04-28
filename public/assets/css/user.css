@@ -30,6 +30,8 @@ h1{
     display: flex;
     align-items: center;
     position: relative;
+    transition: all 0.3s;
+    fill: #fff;
 }
 .hero-wrap .slider-text .subheading{
     letter-spacing: 2px!important;
@@ -43,6 +45,10 @@ h1{
 .technologies .item object{
     height: 100px;
     width: auto;
+    fill: #000;
+}
+.toggler-awake{
+    fill: #000;
 }
 .owl-nav{
     padding-top: 50px;
