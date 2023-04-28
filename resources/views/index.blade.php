@@ -4,10 +4,10 @@
     <div class="overlay"></div>
     <div class="container-fluid px-0">
         <div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-center">
-          <div class="col-md-8 text-center d-flex align-items-center ftco-animate js-fullheight">
+          <div class="col-md-10 text-center d-flex align-items-center  js-fullheight">
               <div class="text mt-5">
-                  <span class="subheading">Web Hosting</span>
-              <h1 class="mb-3">Best Web Hosting For Your Website</h1>
+                  <span class="subheading">Программирование под задачи</span>
+              <h1 class="mb-3">Решения для масштабирования бизнеса</h1>
               <p>Get best speed for your website. Don't lose more clients</p>
               <p><a href="#" class="btn btn-secondary px-4 py-3">Get Started Now</a></p>
             </div>
@@ -19,7 +19,7 @@
   {{-- <section class="ftco-domain">
       <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
-              <div class="col-lg-10 p-5 ftco-wrap ftco-animate">
+              <div class="col-lg-10 p-5 ftco-wrap ">
                   <form action="#" class="domain-form d-flex mb-3">
             <div class="form-group domain-name">
               <input type="text" class="form-control name px-4" placeholder="Enter your domain name...">
@@ -50,38 +50,43 @@
       </div>
   </section> --}}
 
-  <section class="ftco-section ftco-partner">
+  <section class="py-5">
       <div class="container">
           <div class="row">
-              <div class="col-sm ftco-animate">
-                  <a href="#" class="partner"><img src="/assets/images/partner-1.png" class="img-fluid" alt="Colorlib Template"></a>
-              </div>
-              <div class="col-sm ftco-animate">
-                  <a href="#" class="partner"><img src="/assets/images/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
-              </div>
-              <div class="col-sm ftco-animate">
-                  <a href="#" class="partner"><img src="/assets/images/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
-              </div>
-              <div class="col-sm ftco-animate">
-                  <a href="#" class="partner"><img src="/assets/images/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
-              </div>
-              <div class="col-sm ftco-animate">
-                  <a href="#" class="partner"><img src="/assets/images/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
+              <div class="col-12 owl-carousel technologies">
+                  <div class="item">
+                      <object data="{{ asset('/assets/icons/php.svg') }}" type=""></object>
+                  </div>
+                  <div class="item">
+                      <object data="{{ asset('/assets/icons/laravel.svg') }}" type=""></object>
+                  </div>
+                  <div class="item">
+                    <object data="{{ asset('/assets/icons/css.svg') }}" type=""></object>
+                  </div>
+                  <div class="item">
+                    <object data="{{ asset('/assets/icons/html.svg') }}" type=""></object>
+                  </div>
+                  <div class="item">
+                    <object data="{{ asset('/assets/icons/jquery.svg') }}" type=""></object>
+                  </div>
+                  <div class="item">
+                    <object data="{{ asset('/assets/icons/javascript.svg') }}" type=""></object>
+                  </div>
               </div>
           </div>
       </div>
   </section>
 
-  <section class="ftco-section services-section bg-light ftco-no-pb">
+  <section class="py-5 bg-light">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 text-center heading-section ftco-animate">
+        <div class="col-md-7 text-center heading-section">
           <h2 class="mb-4">Why You Should Choose Us</h2>
           <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+        <div class="col-lg-4 d-flex align-self-stretch ">
           <div class="media block-6 services d-flex align-items-start">
               <div class="icon d-flex align-items-center justify-content-center">
                   <span class="flaticon-cloud"></span>
@@ -92,7 +97,7 @@
             </div>
           </div>      
         </div>
-        <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+        <div class="col-lg-4 d-flex align-self-stretch ">
           <div class="media block-6 services d-flex align-items-start">
               <div class="icon d-flex align-items-center justify-content-center">
                   <span class="flaticon-server"></span>
@@ -103,7 +108,7 @@
             </div>
           </div>    
         </div>
-        <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+        <div class="col-lg-4 d-flex align-self-stretch ">
           <div class="media block-6 services d-flex align-items-start">
               <div class="icon d-flex align-items-center justify-content-center">
                   <span class="flaticon-customer-service"></span>
@@ -118,58 +123,14 @@
     </div>
   </section>
 
-  <section class="ftco-section ftco-counter bg-light img" id="section-counter">
-      <div class="container">
-          <div class="row justify-content-center mb-5">
-        <div class="col-md-10 text-center heading-section ftco-animate">
-          <h2 class="mb-4">More than 12,000 websites trusted hosted</h2>
-        </div>
-      </div>
-          <div class="row justify-content-center">
-        <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="12000">0</strong>
-              <span>CMS Installation</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="100">0</strong>
-              <span>Awards Won</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="10000">0</strong>
-              <span>Registered Domains</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="9000">0</strong>
-              <span>Satisfied Customers</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-  </section>
-
-  <section class="ftco-section ftco-no-pt ftco-no-pb">
+  <section class="pt-5 pb-0">
       <div class="container">
           <div class="row d-flex">
               <div class="col-lg-6 order-lg-last d-flex">
                   <div class="bg-primary py-md-5 d-flex align-self-stretch">
                       <div class="main">
                           <img src="/assets/images/undraw_data_report_bi6l.svg" class="img-fluid svg" alt="">
-                          <div class="heading-section heading-section-white ftco-animate mt-5 px-3 px-md-5">
+                          <div class="heading-section heading-section-white  mt-5 px-3 px-md-5">
                       <h2 class="mb-4">Our Main Services</h2>
                       <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     </div>
@@ -178,7 +139,7 @@
               </div>
               <div class="col-lg-6 py-5">
                   <div class="row pt-md-5">
-                      <div class="col-md-6 ftco-animate">
+                      <div class="col-md-6 ">
                           <div class="media block-6 services text-center">
                       <div class="icon d-flex align-items-center justify-content-center">
                           <span class="flaticon-cloud-computing"></span>
@@ -189,7 +150,7 @@
                     </div>
                   </div>
                       </div>
-                      <div class="col-md-6 ftco-animate">
+                      <div class="col-md-6 ">
                           <div class="media block-6 services text-center">
                       <div class="icon d-flex align-items-center justify-content-center">
                           <span class="flaticon-cloud"></span>
@@ -200,7 +161,7 @@
                     </div>
                   </div>
                       </div>
-                      <div class="col-md-6 ftco-animate">
+                      <div class="col-md-6 ">
                           <div class="media block-6 services text-center">
                       <div class="icon d-flex align-items-center justify-content-center">
                           <span class="flaticon-server"></span>
@@ -211,7 +172,7 @@
                     </div>
                   </div>
                       </div>
-                      <div class="col-md-6 ftco-animate">
+                      <div class="col-md-6 ">
                           <div class="media block-6 services text-center">
                       <div class="icon d-flex align-items-center justify-content-center">
                           <span class="flaticon-database"></span>
@@ -228,16 +189,16 @@
       </div>
   </section>
 
-  <section class="ftco-section bg-primary">
+  <section class="py-5 bg-primary">
       <div class="container">
           <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+        <div class="col-md-7 text-center heading-section heading-section-white ">
           <h2 class="mb-4">Our Best Pricing</h2>
           <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
         </div>
       </div>
           <div class="row no-gutters d-flex">
-          <div class="col-lg-3 col-md-6 ftco-animate d-flex">
+          <div class="col-lg-3 col-md-6  d-flex">
             <div class="block-7 bg-light d-flex align-self-stretch">
               <div class="text-center">
                   <h2 class="heading">Free</h2>
@@ -255,7 +216,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 ftco-animate d-flex">
+          <div class="col-lg-3 col-md-6  d-flex">
             <div class="block-7 d-flex align-self-stretch">
               <div class="text-center">
                   <h2 class="heading">Startup</h2>
@@ -273,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 ftco-animate d-flex">
+          <div class="col-lg-3 col-md-6  d-flex">
             <div class="block-7 active d-flex align-self-stretch">
               <div class="text-center">
                   <h2 class="heading">Premium</h2>
@@ -291,7 +252,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 ftco-animate d-flex">
+          <div class="col-lg-3 col-md-6  d-flex">
             <div class="block-7 d-flex align-self-stretch">
               <div class="text-center">
                   <h2 class="heading">Pro</h2>
@@ -313,15 +274,15 @@
       </div>
   </section>
 
-  <section class="ftco-section testimony-section">
+  <section class="py-5 testimony-section">
     <div class="container">
       <div class="row justify-content-center mb-5">
-        <div class="col-md-7 text-center heading-section ftco-animate">
+        <div class="col-md-7 text-center heading-section ">
           <h2 class="mb-4">Our satisfied customer says</h2>
           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
         </div>
       </div>
-      <div class="row ftco-animate">
+      <div class="row ">
         <div class="col-md-12">
           <div class="carousel-testimony owl-carousel ftco-owl">
             <div class="item">
@@ -400,16 +361,16 @@
     </div>
   </section>
 
-  <section class="ftco-section bg-light">
+  <section class="py-5 bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 text-center heading-section ftco-animate">
+        <div class="col-md-7 text-center heading-section ">
           <h2>Recent Blog</h2>
           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 ftco-animate">
+        <div class="col-md-4 ">
           <div class="blog-entry">
             <a href="blog-single.html" class="block-20" style="background-image: url('/assets/images/image_1.jpg');">
             </a>
@@ -425,7 +386,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 ftco-animate">
+        <div class="col-md-4 ">
           <div class="blog-entry" data-aos-delay="100">
             <a href="blog-single.html" class="block-20" style="background-image: url('/assets/images/image_2.jpg');">
             </a>
@@ -441,7 +402,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 ftco-animate">
+        <div class="col-md-4 ">
           <div class="blog-entry" data-aos-delay="200">
             <a href="blog-single.html" class="block-20" style="background-image: url('/assets/images/image_3.jpg');">
             </a>

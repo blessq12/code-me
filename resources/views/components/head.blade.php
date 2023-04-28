@@ -6,20 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('/assets/css/open-iconic-bootstrap.min.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/animate.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/owl.carousel.min.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/owl.theme.default.min.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/magnific-popup.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/aos.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/bootstrap-datepicker.css') }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/jquery.timepicker.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/flaticon.css')  }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/icomoon.css')  }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/style.css')  }}">
+    <link rel="stylesheet" href="{{ asset('/assets/css/user.css')  }}">
     {{-- favicons --}}
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
