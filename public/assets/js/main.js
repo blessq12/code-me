@@ -1,9 +1,16 @@
 document.addEventListener("DOMContentLoaded",function(){
-	//loader
+	let scroll = document.body.scrollTop
+	console.log(scroll)
+	// loader
 	let loader = document.querySelector("#ftco-loader")
 	loader.classList.remove('show')
-	//carousel
-	
+	// navbar
+	let nav = document.querySelector('#nav')
+	let menuToggler = document.querySelector('.mobile-toggler')
+
+	menuToggler.addEventListener("click",function(){
+		nav.classList.toggle('collapse')
+	})
 })
 
 $(document).ready(function(){

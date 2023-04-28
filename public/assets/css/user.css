@@ -13,6 +13,24 @@ h1,h2,h3,h4,h5{
 h1{
     font-weight: 700!important;
 }
+.btn-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.mobile-toggler{
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 .hero-wrap .slider-text .subheading{
     letter-spacing: 2px!important;
 }
